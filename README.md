@@ -29,7 +29,7 @@ Petstagram, a full-stack application inspired by Instagram, is a photo-sharing p
 
 1. Clone the repository
 
-       git@github.com:jstnswn/Instagram-Clone.git
+       https://github.com/jchau-623/petstagram.git
 
 2. CD into the /app directory and install dependencies
 
