@@ -1,0 +1,144 @@
+
+
+.post-view-comments{
+    display:flex;
+    flex-direction: column;
+    height: 70%;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+.post-view-user-img{
+    min-height: 32px;
+    max-height:32px;
+    min-width: 32px;
+    max-width:32px;
+    border-radius: 50%;
+    margin-right:12px;
+    object-fit:cover;
+}
+
+
+.comment-shell{
+    display:flex;
+    /* margin-top:16px; */
+
+
+    margin-bottom:26px;
+
+}
+
+.caption-shell{
+    display:flex;
+    /* margin-top:16px; */
+    margin-right:16px;
+    margin-bottom:26px;
+    margin-right: 10px;
+
+    width: 291px;
+
+    /* border: green 4px solid; */
+
+
+
+    /* padding-bottom:21px; */
+}
+
+.caption-shell .caption-box {
+    width: 100%;
+}
+
+.caption-shell .post-caption {
+    overflow-wrap: break-word;
+}
+
+
+.post-view-comments ul{
+    overflow:scroll;
+    /* height:525px; */
+    height: 100%;
+    padding-left:15px;
+}
+
+.post-view-comments ul::-webkit-scrollbar {
+    display: none;
+
+}
+
+.post-view-comments a{
+    font-weight:bold;
+    margin-right:6px;
+}
+
+.post-view-comments a:visited{
+    color:black;
+}
+
+.comment-shell span{
+    white-space: normal;
+    max-width: 235px;
+}
+
+.caption-shell span{
+    white-space: normal;
+    max-width: 235px;
+}
+
+.time-and-menu{
+    display:flex;
+    justify-content: flex-end;
+    margin-right:-15px;
+}
+
+.time-and-menu #ghost{
+    visibility: hidden;
+}
+
+.time-passed{
+    color:#8e8e8e;
+    font-size: 14px;
+    visibility:hidden;
+}
+
+#profile-like-button {
+    padding-left: 16px;
+    padding-top: 1px;
+}
+
+#profile-likes-number{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.whole-comment {
+    display:flex;
+}
+
+#comment-itself {
+    word-break: break-word;
+    padding: 0;
+}
+
+.comment-ellipsis {
+    margin-right: 22px;
+}
+
+
+.comment-and-ellipsis-parent{
+    display:flex;
+    justify-content: space-between;
+    max-width: 372px;
+}
+
+#side-container-likes {
+    padding: 15px 0px;
+    border-top: 1px solid rgb(222, 222, 222);
+    border-bottom: 1px solid rgb(222, 222, 222); ;
+}
+
+.comment-form-within-side-container {
+    /* justify-self: end; */
+    /* border: 1px solid blue; */
+    margin-right: 13px;
+}

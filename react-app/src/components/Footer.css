@@ -1,0 +1,49 @@
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #8E8E8E;
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+#tech-stack {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.list-item {
+    padding: 10px;
+}
+
+#footer-bottom {
+    display: flex;
+    position: relative;
+}
+
+#about-us-dropdown {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.down-caret {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px 0px 5px;
+}
+
+.names, .names > a {
+    padding: 3px 0px;
+    color: white;
+}
+
+#about-us-list, .names > a:visited {
+    position: absolute;
+    top: 20px;
+    left: -50px;
+    background-color: rgb(94, 94, 94);
+    border-radius: 5px;
+    padding: 5px 20px;
+}

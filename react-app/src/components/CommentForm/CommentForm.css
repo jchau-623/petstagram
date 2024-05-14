@@ -1,0 +1,70 @@
+.comment-button{
+    border:none;
+    align-items: center;
+    background-color: white;
+    font-weight:bold;
+    color:#0095f6;
+    /* margin-left: 70px; */
+    margin-bottom: 5px;
+    background: transparent;
+}
+
+
+.comment-form-textarea{
+    border:none;
+    resize:none;
+    outline: none;
+    margin: 10px 0px;
+    background: transparent;
+    margin-left: 10px;
+    /* height:400px; */
+    max-height: 500px;
+    /* border: 1px solid blue; */
+    width: 100%;
+}
+
+
+.comment-form-textarea:focus{
+    overflow-y: scroll;
+    outline:none;
+
+}
+/* 
+.comment-form-textarea::-webkit-scrollbar {
+} */
+
+
+.comment-form-container{
+    display:flex;
+    justify-content: flex-end;
+    /* max-height:400px; */
+    /* height:100%; */
+}
+
+.comment-form-container-profile {
+    display:flex;
+    border: solid 1px red;
+}
+
+.add-comment-and-post-btn {
+    display: flex;
+    justify-content:flex-end;
+}
+
+#unclickable-post-comment-button {
+    border: none;
+    align-items: center;
+    background-color: white;
+    font-weight: bold;
+    /* margin-left: 70px; */
+    margin-bottom: 5px;
+    background: transparent;
+    padding: 1px 6px;
+    color: rgba(0,149,246,0.5);
+    line-height: 18px;
+    pointer-events: none;
+}
+
+/* .comment-form-whole-div {
+    max-height: 500px;
+} */

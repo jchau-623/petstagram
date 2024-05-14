@@ -1,0 +1,84 @@
+.post-footer .footer-icons {
+    height: 54px;
+}
+
+.post-footer .footer-likes {
+    height: 24px;
+}
+
+.post-footer .comment-container {
+    height: 88px;
+}
+
+.post-footer .add-comment-container {
+    height: 53px;
+}
+
+.footer-icons {
+    display: flex;
+    width: 100%;
+}
+
+.footer-icons span:not(:last-child) {
+    height: 40px;
+    width: 40px;
+    padding: 1px 6px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-icons span:last-child {
+    flex-grow: 1;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    padding: 1px 6px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+span i {
+    cursor: pointer;
+}
+
+.post-icon {
+    font-size: 24px;
+}
+
+.caption-username {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#dashboard-caption-username:visited {
+    color: black;
+}
+#dashboard-caption-username:hover {
+    text-decoration: underline;
+}
+
+.caption {
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 17px;
+    display: block;
+}
+
+#like {
+    border: none;
+    background-color: white;
+}
+
+.red {
+    color: rgb(249,67,77);
+}
+
+.add-comment-container {
+    margin-top: 10px;
+}
+
+#feed-comment-icon {
+    margin-right: 520px;
+}
